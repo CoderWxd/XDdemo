@@ -18,6 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    
+    
     self.topWindow = [[UIWindow alloc] init];
     self.topWindow.windowLevel = UIWindowLevelAlert;
     self.topWindow.frame = [UIApplication sharedApplication].statusBarFrame;
