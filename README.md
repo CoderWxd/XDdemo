@@ -5,6 +5,7 @@
     * demo-改变状态栏
     * demo-添加日历提醒事件
     * demo-动画-飞升上神
+    * demo-快速实现tableView头部缩放放大
 [demo简书地址:不是隔壁老王](http://www.jianshu.com/u/eaf33d493a1d)
         
 
