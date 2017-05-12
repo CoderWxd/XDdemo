@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56DE31E1E9BB73B00AC35DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56DE31D1E9BB73B00AC35DE /* main.m */; };
+		C56DE3211E9BB73B00AC35DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56DE3201E9BB73B00AC35DE /* AppDelegate.m */; };
+		C56DE3241E9BB73B00AC35DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56DE3231E9BB73B00AC35DE /* ViewController.m */; };
+		C56DE3271E9BB73B00AC35DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3251E9BB73B00AC35DE /* Main.storyboard */; };
+		C56DE3291E9BB73B00AC35DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3281E9BB73B00AC35DE /* Assets.xcassets */; };
+		C56DE32C1E9BB73B00AC35DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56DE32A1E9BB73B00AC35DE /* LaunchScreen.storyboard */; };
+		C56DE3351E9BB74E00AC35DE /* UIView+ESShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = C56DE3341E9BB74E00AC35DE /* UIView+ESShortcut.m */; };
+		C56DE3381E9BB77800AC35DE /* CrystalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C56DE3371E9BB77800AC35DE /* CrystalAnimation.m */; };
+		C56DE34B1E9BBB1D00AC35DE /* crystal_algae.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE33A1E9BBB1D00AC35DE /* crystal_algae.png */; };
+		C56DE34C1E9BBB1D00AC35DE /* crystal_diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE33B1E9BBB1D00AC35DE /* crystal_diamond.png */; };
+		C56DE34D1E9BBB1D00AC35DE /* crystal_mush_room.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE33C1E9BBB1D00AC35DE /* crystal_mush_room.png */; };
+		C56DE34E1E9BBB1D00AC35DE /* crystal_palace.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE33D1E9BBB1D00AC35DE /* crystal_palace.png */; };
+		C56DE34F1E9BBB1D00AC35DE /* crystal_planet1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE33E1E9BBB1D00AC35DE /* crystal_planet1.png */; };
+		C56DE3501E9BBB1D00AC35DE /* crystal_planet2.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE33F1E9BBB1D00AC35DE /* crystal_planet2.png */; };
+		C56DE3511E9BBB1D00AC35DE /* crystal_planet3.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3401E9BBB1D00AC35DE /* crystal_planet3.png */; };
+		C56DE3521E9BBB1D00AC35DE /* crystal_planet4.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3411E9BBB1D00AC35DE /* crystal_planet4.png */; };
+		C56DE3531E9BBB1D00AC35DE /* crystal_planet5.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3421E9BBB1D00AC35DE /* crystal_planet5.png */; };
+		C56DE3541E9BBB1D00AC35DE /* crystal_seal1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3431E9BBB1D00AC35DE /* crystal_seal1.png */; };
+		C56DE3551E9BBB1D00AC35DE /* crystal_seal2.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3441E9BBB1D00AC35DE /* crystal_seal2.png */; };
+		C56DE3561E9BBB1D00AC35DE /* crystal_seal3.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3451E9BBB1D00AC35DE /* crystal_seal3.png */; };
+		C56DE3571E9BBB1D00AC35DE /* crystal_seaweed.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3461E9BBB1D00AC35DE /* crystal_seaweed.png */; };
+		C56DE3581E9BBB1D00AC35DE /* crystal_wackgroundPoints.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3471E9BBB1D00AC35DE /* crystal_wackgroundPoints.png */; };
+		C56DE3591E9BBB1D00AC35DE /* crystal_wave_sea.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3481E9BBB1D00AC35DE /* crystal_wave_sea.png */; };
+		C56DE35A1E9BBB1D00AC35DE /* crystal_wave1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE3491E9BBB1D00AC35DE /* crystal_wave1.png */; };
+		C56DE35B1E9BBB1D00AC35DE /* crystal_wave2.png in Resources */ = {isa = PBXBuildFile; fileRef = C56DE34A1E9BBB1D00AC35DE /* crystal_wave2.png */; };
+		C5C0E3B11E9CB80B0081DE4E /* crystal_wave3.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C0E3B01E9CB80B0081DE4E /* crystal_wave3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C56DE3191E9BB73B00AC35DE /* 水晶动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水晶动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56DE31D1E9BB73B00AC35DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C56DE31F1E9BB73B00AC35DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C56DE3201E9BB73B00AC35DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C56DE3221E9BB73B00AC35DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C56DE3231E9BB73B00AC35DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C56DE3261E9BB73B00AC35DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C56DE3281E9BB73B00AC35DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C56DE32B1E9BB73B00AC35DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C56DE32D1E9BB73B00AC35DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56DE3331E9BB74E00AC35DE /* UIView+ESShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ESShortcut.h"; sourceTree = "<group>"; };
+		C56DE3341E9BB74E00AC35DE /* UIView+ESShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ESShortcut.m"; sourceTree = "<group>"; };
+		C56DE3361E9BB77800AC35DE /* CrystalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrystalAnimation.h; sourceTree = "<group>"; };
+		C56DE3371E9BB77800AC35DE /* CrystalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrystalAnimation.m; sourceTree = "<group>"; };
+		C56DE33A1E9BBB1D00AC35DE /* crystal_algae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_algae.png; sourceTree = "<group>"; };
+		C56DE33B1E9BBB1D00AC35DE /* crystal_diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_diamond.png; sourceTree = "<group>"; };
+		C56DE33C1E9BBB1D00AC35DE /* crystal_mush_room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_mush_room.png; sourceTree = "<group>"; };
+		C56DE33D1E9BBB1D00AC35DE /* crystal_palace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_palace.png; sourceTree = "<group>"; };
+		C56DE33E1E9BBB1D00AC35DE /* crystal_planet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_planet1.png; sourceTree = "<group>"; };
+		C56DE33F1E9BBB1D00AC35DE /* crystal_planet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_planet2.png; sourceTree = "<group>"; };
+		C56DE3401E9BBB1D00AC35DE /* crystal_planet3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_planet3.png; sourceTree = "<group>"; };
+		C56DE3411E9BBB1D00AC35DE /* crystal_planet4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_planet4.png; sourceTree = "<group>"; };
+		C56DE3421E9BBB1D00AC35DE /* crystal_planet5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_planet5.png; sourceTree = "<group>"; };
+		C56DE3431E9BBB1D00AC35DE /* crystal_seal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_seal1.png; sourceTree = "<group>"; };
+		C56DE3441E9BBB1D00AC35DE /* crystal_seal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_seal2.png; sourceTree = "<group>"; };
+		C56DE3451E9BBB1D00AC35DE /* crystal_seal3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_seal3.png; sourceTree = "<group>"; };
+		C56DE3461E9BBB1D00AC35DE /* crystal_seaweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_seaweed.png; sourceTree = "<group>"; };
+		C56DE3471E9BBB1D00AC35DE /* crystal_wackgroundPoints.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_wackgroundPoints.png; sourceTree = "<group>"; };
+		C56DE3481E9BBB1D00AC35DE /* crystal_wave_sea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_wave_sea.png; sourceTree = "<group>"; };
+		C56DE3491E9BBB1D00AC35DE /* crystal_wave1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_wave1.png; sourceTree = "<group>"; };
+		C56DE34A1E9BBB1D00AC35DE /* crystal_wave2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_wave2.png; sourceTree = "<group>"; };
+		C5C0E3B01E9CB80B0081DE4E /* crystal_wave3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crystal_wave3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56DE3161E9BB73B00AC35DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56DE3101E9BB73B00AC35DE = {
+			isa = PBXGroup;
+			children = (
+				C56DE31B1E9BB73B00AC35DE /* 水晶动画 */,
+				C56DE31A1E9BB73B00AC35DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56DE31A1E9BB73B00AC35DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56DE3191E9BB73B00AC35DE /* 水晶动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56DE31B1E9BB73B00AC35DE /* 水晶动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C56DE3391E9BBB1200AC35DE /* images */,
+				C56DE3331E9BB74E00AC35DE /* UIView+ESShortcut.h */,
+				C56DE3341E9BB74E00AC35DE /* UIView+ESShortcut.m */,
+				C56DE31F1E9BB73B00AC35DE /* AppDelegate.h */,
+				C56DE3201E9BB73B00AC35DE /* AppDelegate.m */,
+				C56DE3221E9BB73B00AC35DE /* ViewController.h */,
+				C56DE3231E9BB73B00AC35DE /* ViewController.m */,
+				C56DE3361E9BB77800AC35DE /* CrystalAnimation.h */,
+				C56DE3371E9BB77800AC35DE /* CrystalAnimation.m */,
+				C56DE3251E9BB73B00AC35DE /* Main.storyboard */,
+				C56DE3281E9BB73B00AC35DE /* Assets.xcassets */,
+				C56DE32A1E9BB73B00AC35DE /* LaunchScreen.storyboard */,
+				C56DE32D1E9BB73B00AC35DE /* Info.plist */,
+				C56DE31C1E9BB73B00AC35DE /* Supporting Files */,
+			);
+			path = "水晶动画";
+			sourceTree = "<group>";
+		};
+		C56DE31C1E9BB73B00AC35DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56DE31D1E9BB73B00AC35DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56DE3391E9BBB1200AC35DE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C56DE33A1E9BBB1D00AC35DE /* crystal_algae.png */,
+				C5C0E3B01E9CB80B0081DE4E /* crystal_wave3.png */,
+				C56DE33B1E9BBB1D00AC35DE /* crystal_diamond.png */,
+				C56DE33C1E9BBB1D00AC35DE /* crystal_mush_room.png */,
+				C56DE33D1E9BBB1D00AC35DE /* crystal_palace.png */,
+				C56DE33E1E9BBB1D00AC35DE /* crystal_planet1.png */,
+				C56DE33F1E9BBB1D00AC35DE /* crystal_planet2.png */,
+				C56DE3401E9BBB1D00AC35DE /* crystal_planet3.png */,
+				C56DE3411E9BBB1D00AC35DE /* crystal_planet4.png */,
+				C56DE3421E9BBB1D00AC35DE /* crystal_planet5.png */,
+				C56DE3431E9BBB1D00AC35DE /* crystal_seal1.png */,
+				C56DE3441E9BBB1D00AC35DE /* crystal_seal2.png */,
+				C56DE3451E9BBB1D00AC35DE /* crystal_seal3.png */,
+				C56DE3461E9BBB1D00AC35DE /* crystal_seaweed.png */,
+				C56DE3471E9BBB1D00AC35DE /* crystal_wackgroundPoints.png */,
+				C56DE3481E9BBB1D00AC35DE /* crystal_wave_sea.png */,
+				C56DE3491E9BBB1D00AC35DE /* crystal_wave1.png */,
+				C56DE34A1E9BBB1D00AC35DE /* crystal_wave2.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56DE3181E9BB73B00AC35DE /* 水晶动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56DE3301E9BB73B00AC35DE /* Build configuration list for PBXNativeTarget "水晶动画" */;
+			buildPhases = (
+				C56DE3151E9BB73B00AC35DE /* Sources */,
+				C56DE3161E9BB73B00AC35DE /* Frameworks */,
+				C56DE3171E9BB73B00AC35DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "水晶动画";
+			productName = "水晶动画";
+			productReference = C56DE3191E9BB73B00AC35DE /* 水晶动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56DE3111E9BB73B00AC35DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.qinqin.www;
+				TargetAttributes = {
+					C56DE3181E9BB73B00AC35DE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C56DE3141E9BB73B00AC35DE /* Build configuration list for PBXProject "水晶动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56DE3101E9BB73B00AC35DE;
+			productRefGroup = C56DE31A1E9BB73B00AC35DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56DE3181E9BB73B00AC35DE /* 水晶动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56DE3171E9BB73B00AC35DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56DE3531E9BBB1D00AC35DE /* crystal_planet5.png in Resources */,
+				C56DE3501E9BBB1D00AC35DE /* crystal_planet2.png in Resources */,
+				C5C0E3B11E9CB80B0081DE4E /* crystal_wave3.png in Resources */,
+				C56DE35B1E9BBB1D00AC35DE /* crystal_wave2.png in Resources */,
+				C56DE3551E9BBB1D00AC35DE /* crystal_seal2.png in Resources */,
+				C56DE3561E9BBB1D00AC35DE /* crystal_seal3.png in Resources */,
+				C56DE34E1E9BBB1D00AC35DE /* crystal_palace.png in Resources */,
+				C56DE3581E9BBB1D00AC35DE /* crystal_wackgroundPoints.png in Resources */,
+				C56DE3571E9BBB1D00AC35DE /* crystal_seaweed.png in Resources */,
+				C56DE3591E9BBB1D00AC35DE /* crystal_wave_sea.png in Resources */,
+				C56DE32C1E9BB73B00AC35DE /* LaunchScreen.storyboard in Resources */,
+				C56DE34C1E9BBB1D00AC35DE /* crystal_diamond.png in Resources */,
+				C56DE35A1E9BBB1D00AC35DE /* crystal_wave1.png in Resources */,
+				C56DE3511E9BBB1D00AC35DE /* crystal_planet3.png in Resources */,
+				C56DE3541E9BBB1D00AC35DE /* crystal_seal1.png in Resources */,
+				C56DE3291E9BB73B00AC35DE /* Assets.xcassets in Resources */,
+				C56DE34F1E9BBB1D00AC35DE /* crystal_planet1.png in Resources */,
+				C56DE3521E9BBB1D00AC35DE /* crystal_planet4.png in Resources */,
+				C56DE3271E9BB73B00AC35DE /* Main.storyboard in Resources */,
+				C56DE34D1E9BBB1D00AC35DE /* crystal_mush_room.png in Resources */,
+				C56DE34B1E9BBB1D00AC35DE /* crystal_algae.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56DE3151E9BB73B00AC35DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56DE3241E9BB73B00AC35DE /* ViewController.m in Sources */,
+				C56DE3211E9BB73B00AC35DE /* AppDelegate.m in Sources */,
+				C56DE3381E9BB77800AC35DE /* CrystalAnimation.m in Sources */,
+				C56DE3351E9BB74E00AC35DE /* UIView+ESShortcut.m in Sources */,
+				C56DE31E1E9BB73B00AC35DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C56DE3251E9BB73B00AC35DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56DE3261E9BB73B00AC35DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C56DE32A1E9BB73B00AC35DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56DE32B1E9BB73B00AC35DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56DE32E1E9BB73B00AC35DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C56DE32F1E9BB73B00AC35DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56DE3311E9BB73B00AC35DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "水晶动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinqin.www.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C56DE3321E9BB73B00AC35DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "水晶动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinqin.www.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56DE3141E9BB73B00AC35DE /* Build configuration list for PBXProject "水晶动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56DE32E1E9BB73B00AC35DE /* Debug */,
+				C56DE32F1E9BB73B00AC35DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56DE3301E9BB73B00AC35DE /* Build configuration list for PBXNativeTarget "水晶动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56DE3311E9BB73B00AC35DE /* Debug */,
+				C56DE3321E9BB73B00AC35DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56DE3111E9BB73B00AC35DE /* Project object */;
+}
