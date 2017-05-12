@@ -6,6 +6,8 @@
     * demo-添加日历提醒事件
     * demo-动画-飞升上神
     * demo-快速实现tableView头部缩放放大
+    * demo-水晶动画
+    * demo-gif动画和香水动画
 [demo简书地址:不是隔壁老王](http://www.jianshu.com/u/eaf33d493a1d)
         
 
