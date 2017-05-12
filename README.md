@@ -8,6 +8,7 @@
     * demo-快速实现tableView头部缩放放大
     * demo-水晶动画
     * demo-gif动画和香水动画
+    * demo-手势解锁
 [demo简书地址:不是隔壁老王](http://www.jianshu.com/u/eaf33d493a1d)
         
 
