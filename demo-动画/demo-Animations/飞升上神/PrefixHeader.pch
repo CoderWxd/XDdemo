@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  飞升上神
+//
+//  Created by 王晓栋 on 2017/6/25.
+//  Copyright © 2017年 com.qinqin.www. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "UIView+ESShortcut.h"
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define const_explosion_time 5.0
+#define weak(obj) __weak typeof(obj) _weak##obj = obj;
+#define strong(obj) __strong typeof(obj) _strong##obj = obj;
+
+
+#define ESWeak_(var, weakVar)                   __weak __typeof(&*var) weakVar = var;
+#define ESWeak(var)                             ESWeak_(var, weak_##var);
+#define ESWeakSelf                              ESWeak(self);
+
+#define ESStrong_DoNotCheckNil(weakVar, var)    __typeof(&*weakVar) var = weakVar;
+#define ESStrong_(weakVar, var)                 ESStrong_DoNotCheckNil(weakVar, var); if (!var) return;
+#define ESStrong(var)                           ESStrong_(weak_##var, _##var);
+#define ESStrongSelf                            ESStrong(self);
+
+
+
+#endif /* PrefixHeader_pch */
