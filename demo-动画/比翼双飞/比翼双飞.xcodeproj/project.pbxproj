@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5BDFA621F395D3C00076D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BDFA611F395D3C00076D3E /* main.m */; };
+		C5BDFA651F395D3C00076D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BDFA641F395D3C00076D3E /* AppDelegate.m */; };
+		C5BDFA681F395D3C00076D3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BDFA671F395D3C00076D3E /* ViewController.m */; };
+		C5BDFA6B1F395D3D00076D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA691F395D3D00076D3E /* Main.storyboard */; };
+		C5BDFA6D1F395D3D00076D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA6C1F395D3D00076D3E /* Assets.xcassets */; };
+		C5BDFA701F395D3D00076D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA6E1F395D3D00076D3E /* LaunchScreen.storyboard */; };
+		C5BDFA881F395DF300076D3E /* flywing_butterfly1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA781F395DF300076D3E /* flywing_butterfly1-1.png */; };
+		C5BDFA891F395DF300076D3E /* flywing_butterfly1-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA791F395DF300076D3E /* flywing_butterfly1-2.png */; };
+		C5BDFA8A1F395DF300076D3E /* flywing_butterfly2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA7A1F395DF300076D3E /* flywing_butterfly2-1.png */; };
+		C5BDFA8B1F395DF300076D3E /* flywing_butterfly2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA7B1F395DF300076D3E /* flywing_butterfly2-2.png */; };
+		C5BDFA8C1F395DF300076D3E /* flywing_frontlotus.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA7C1F395DF300076D3E /* flywing_frontlotus.png */; };
+		C5BDFA8D1F395DF300076D3E /* flywing_lake.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA7D1F395DF300076D3E /* flywing_lake.png */; };
+		C5BDFA8E1F395DF300076D3E /* flywing_left_birdsfly.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA7E1F395DF300076D3E /* flywing_left_birdsfly.png */; };
+		C5BDFA8F1F395DF300076D3E /* flywing_left_green_birdsfly.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA7F1F395DF300076D3E /* flywing_left_green_birdsfly.png */; };
+		C5BDFA901F395DF300076D3E /* flywing_left_mandarin.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA801F395DF300076D3E /* flywing_left_mandarin.png */; };
+		C5BDFA911F395DF300076D3E /* flywing_lotus_highly_mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA811F395DF300076D3E /* flywing_lotus_highly_mobile.png */; };
+		C5BDFA921F395DF300076D3E /* flywing_lotus_mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA821F395DF300076D3E /* flywing_lotus_mobile.png */; };
+		C5BDFA931F395DF300076D3E /* flywing_right_birdsfly.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA831F395DF300076D3E /* flywing_right_birdsfly.png */; };
+		C5BDFA941F395DF300076D3E /* flywing_right_green_birdsfly.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA841F395DF300076D3E /* flywing_right_green_birdsfly.png */; };
+		C5BDFA951F395DF300076D3E /* flywing_right_mandarin.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA851F395DF300076D3E /* flywing_right_mandarin.png */; };
+		C5BDFA961F395DF300076D3E /* flywing_whitelotus.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA861F395DF300076D3E /* flywing_whitelotus.png */; };
+		C5BDFA971F395DF300076D3E /* flywing_words.png in Resources */ = {isa = PBXBuildFile; fileRef = C5BDFA871F395DF300076D3E /* flywing_words.png */; };
+		C5BDFA9B1F395E2D00076D3E /* UIView+ESShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BDFA9A1F395E2D00076D3E /* UIView+ESShortcut.m */; };
+		C5BDFA9E1F395EB100076D3E /* AnimationFlyWingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BDFA9D1F395EB100076D3E /* AnimationFlyWingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5BDFA5D1F395D3C00076D3E /* 比翼双飞.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "比翼双飞.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BDFA611F395D3C00076D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5BDFA631F395D3C00076D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5BDFA641F395D3C00076D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5BDFA661F395D3C00076D3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5BDFA671F395D3C00076D3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5BDFA6A1F395D3D00076D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5BDFA6C1F395D3D00076D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BDFA6F1F395D3D00076D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5BDFA711F395D3D00076D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BDFA781F395DF300076D3E /* flywing_butterfly1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flywing_butterfly1-1.png"; sourceTree = "<group>"; };
+		C5BDFA791F395DF300076D3E /* flywing_butterfly1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flywing_butterfly1-2.png"; sourceTree = "<group>"; };
+		C5BDFA7A1F395DF300076D3E /* flywing_butterfly2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flywing_butterfly2-1.png"; sourceTree = "<group>"; };
+		C5BDFA7B1F395DF300076D3E /* flywing_butterfly2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flywing_butterfly2-2.png"; sourceTree = "<group>"; };
+		C5BDFA7C1F395DF300076D3E /* flywing_frontlotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_frontlotus.png; sourceTree = "<group>"; };
+		C5BDFA7D1F395DF300076D3E /* flywing_lake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_lake.png; sourceTree = "<group>"; };
+		C5BDFA7E1F395DF300076D3E /* flywing_left_birdsfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_left_birdsfly.png; sourceTree = "<group>"; };
+		C5BDFA7F1F395DF300076D3E /* flywing_left_green_birdsfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_left_green_birdsfly.png; sourceTree = "<group>"; };
+		C5BDFA801F395DF300076D3E /* flywing_left_mandarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_left_mandarin.png; sourceTree = "<group>"; };
+		C5BDFA811F395DF300076D3E /* flywing_lotus_highly_mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_lotus_highly_mobile.png; sourceTree = "<group>"; };
+		C5BDFA821F395DF300076D3E /* flywing_lotus_mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_lotus_mobile.png; sourceTree = "<group>"; };
+		C5BDFA831F395DF300076D3E /* flywing_right_birdsfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_right_birdsfly.png; sourceTree = "<group>"; };
+		C5BDFA841F395DF300076D3E /* flywing_right_green_birdsfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_right_green_birdsfly.png; sourceTree = "<group>"; };
+		C5BDFA851F395DF300076D3E /* flywing_right_mandarin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_right_mandarin.png; sourceTree = "<group>"; };
+		C5BDFA861F395DF300076D3E /* flywing_whitelotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_whitelotus.png; sourceTree = "<group>"; };
+		C5BDFA871F395DF300076D3E /* flywing_words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flywing_words.png; sourceTree = "<group>"; };
+		C5BDFA991F395E2D00076D3E /* UIView+ESShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ESShortcut.h"; sourceTree = "<group>"; };
+		C5BDFA9A1F395E2D00076D3E /* UIView+ESShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ESShortcut.m"; sourceTree = "<group>"; };
+		C5BDFA9C1F395EB100076D3E /* AnimationFlyWingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationFlyWingView.h; sourceTree = "<group>"; };
+		C5BDFA9D1F395EB100076D3E /* AnimationFlyWingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationFlyWingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BDFA5A1F395D3C00076D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5BDFA541F395D3C00076D3E = {
+			isa = PBXGroup;
+			children = (
+				C5BDFA5F1F395D3C00076D3E /* 比翼双飞 */,
+				C5BDFA5E1F395D3C00076D3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BDFA5E1F395D3C00076D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BDFA5D1F395D3C00076D3E /* 比翼双飞.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BDFA5F1F395D3C00076D3E /* 比翼双飞 */ = {
+			isa = PBXGroup;
+			children = (
+				C5BDFA981F395DF900076D3E /* category */,
+				C5BDFA771F395DE300076D3E /* images */,
+				C5BDFA631F395D3C00076D3E /* AppDelegate.h */,
+				C5BDFA641F395D3C00076D3E /* AppDelegate.m */,
+				C5BDFA661F395D3C00076D3E /* ViewController.h */,
+				C5BDFA671F395D3C00076D3E /* ViewController.m */,
+				C5BDFA9C1F395EB100076D3E /* AnimationFlyWingView.h */,
+				C5BDFA9D1F395EB100076D3E /* AnimationFlyWingView.m */,
+				C5BDFA691F395D3D00076D3E /* Main.storyboard */,
+				C5BDFA6C1F395D3D00076D3E /* Assets.xcassets */,
+				C5BDFA6E1F395D3D00076D3E /* LaunchScreen.storyboard */,
+				C5BDFA711F395D3D00076D3E /* Info.plist */,
+				C5BDFA601F395D3C00076D3E /* Supporting Files */,
+			);
+			path = "比翼双飞";
+			sourceTree = "<group>";
+		};
+		C5BDFA601F395D3C00076D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BDFA611F395D3C00076D3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5BDFA771F395DE300076D3E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C5BDFA781F395DF300076D3E /* flywing_butterfly1-1.png */,
+				C5BDFA791F395DF300076D3E /* flywing_butterfly1-2.png */,
+				C5BDFA7A1F395DF300076D3E /* flywing_butterfly2-1.png */,
+				C5BDFA7B1F395DF300076D3E /* flywing_butterfly2-2.png */,
+				C5BDFA7C1F395DF300076D3E /* flywing_frontlotus.png */,
+				C5BDFA7D1F395DF300076D3E /* flywing_lake.png */,
+				C5BDFA7E1F395DF300076D3E /* flywing_left_birdsfly.png */,
+				C5BDFA7F1F395DF300076D3E /* flywing_left_green_birdsfly.png */,
+				C5BDFA801F395DF300076D3E /* flywing_left_mandarin.png */,
+				C5BDFA811F395DF300076D3E /* flywing_lotus_highly_mobile.png */,
+				C5BDFA821F395DF300076D3E /* flywing_lotus_mobile.png */,
+				C5BDFA831F395DF300076D3E /* flywing_right_birdsfly.png */,
+				C5BDFA841F395DF300076D3E /* flywing_right_green_birdsfly.png */,
+				C5BDFA851F395DF300076D3E /* flywing_right_mandarin.png */,
+				C5BDFA861F395DF300076D3E /* flywing_whitelotus.png */,
+				C5BDFA871F395DF300076D3E /* flywing_words.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C5BDFA981F395DF900076D3E /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C5BDFA991F395E2D00076D3E /* UIView+ESShortcut.h */,
+				C5BDFA9A1F395E2D00076D3E /* UIView+ESShortcut.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5BDFA5C1F395D3C00076D3E /* 比翼双飞 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BDFA741F395D3D00076D3E /* Build configuration list for PBXNativeTarget "比翼双飞" */;
+			buildPhases = (
+				C5BDFA591F395D3C00076D3E /* Sources */,
+				C5BDFA5A1F395D3C00076D3E /* Frameworks */,
+				C5BDFA5B1F395D3C00076D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "比翼双飞";
+			productName = "比翼双飞";
+			productReference = C5BDFA5D1F395D3C00076D3E /* 比翼双飞.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BDFA551F395D3C00076D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					C5BDFA5C1F395D3C00076D3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5BDFA581F395D3C00076D3E /* Build configuration list for PBXProject "比翼双飞" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5BDFA541F395D3C00076D3E;
+			productRefGroup = C5BDFA5E1F395D3C00076D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BDFA5C1F395D3C00076D3E /* 比翼双飞 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5BDFA5B1F395D3C00076D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BDFA961F395DF300076D3E /* flywing_whitelotus.png in Resources */,
+				C5BDFA8C1F395DF300076D3E /* flywing_frontlotus.png in Resources */,
+				C5BDFA8F1F395DF300076D3E /* flywing_left_green_birdsfly.png in Resources */,
+				C5BDFA891F395DF300076D3E /* flywing_butterfly1-2.png in Resources */,
+				C5BDFA901F395DF300076D3E /* flywing_left_mandarin.png in Resources */,
+				C5BDFA921F395DF300076D3E /* flywing_lotus_mobile.png in Resources */,
+				C5BDFA8D1F395DF300076D3E /* flywing_lake.png in Resources */,
+				C5BDFA701F395D3D00076D3E /* LaunchScreen.storyboard in Resources */,
+				C5BDFA6D1F395D3D00076D3E /* Assets.xcassets in Resources */,
+				C5BDFA8A1F395DF300076D3E /* flywing_butterfly2-1.png in Resources */,
+				C5BDFA8E1F395DF300076D3E /* flywing_left_birdsfly.png in Resources */,
+				C5BDFA881F395DF300076D3E /* flywing_butterfly1-1.png in Resources */,
+				C5BDFA6B1F395D3D00076D3E /* Main.storyboard in Resources */,
+				C5BDFA971F395DF300076D3E /* flywing_words.png in Resources */,
+				C5BDFA941F395DF300076D3E /* flywing_right_green_birdsfly.png in Resources */,
+				C5BDFA951F395DF300076D3E /* flywing_right_mandarin.png in Resources */,
+				C5BDFA911F395DF300076D3E /* flywing_lotus_highly_mobile.png in Resources */,
+				C5BDFA8B1F395DF300076D3E /* flywing_butterfly2-2.png in Resources */,
+				C5BDFA931F395DF300076D3E /* flywing_right_birdsfly.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BDFA591F395D3C00076D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BDFA681F395D3C00076D3E /* ViewController.m in Sources */,
+				C5BDFA651F395D3C00076D3E /* AppDelegate.m in Sources */,
+				C5BDFA9B1F395E2D00076D3E /* UIView+ESShortcut.m in Sources */,
+				C5BDFA9E1F395EB100076D3E /* AnimationFlyWingView.m in Sources */,
+				C5BDFA621F395D3C00076D3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5BDFA691F395D3D00076D3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BDFA6A1F395D3D00076D3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5BDFA6E1F395D3D00076D3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BDFA6F1F395D3D00076D3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5BDFA721F395D3D00076D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5BDFA731F395D3D00076D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BDFA751F395D3D00076D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "比翼双飞/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinqin.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5BDFA761F395D3D00076D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "比翼双飞/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinqin.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BDFA581F395D3C00076D3E /* Build configuration list for PBXProject "比翼双飞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BDFA721F395D3D00076D3E /* Debug */,
+				C5BDFA731F395D3D00076D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BDFA741F395D3D00076D3E /* Build configuration list for PBXNativeTarget "比翼双飞" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BDFA751F395D3D00076D3E /* Debug */,
+				C5BDFA761F395D3D00076D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5BDFA551F395D3C00076D3E /* Project object */;
+}
