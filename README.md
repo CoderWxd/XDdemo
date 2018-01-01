@@ -10,6 +10,7 @@
     * demo-gif动画和香水动画
     * demo-手势解锁
     * demo-动画 ~ 项链 棒棒糖 雪糕 粒子 香水 比翼双飞
+    * Demo-Project
 
 [demo简书地址:不是隔壁老王](http://www.jianshu.com/u/eaf33d493a1d)
         
