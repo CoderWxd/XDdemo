@@ -12,7 +12,7 @@
     * demo-动画 ~ 项链 棒棒糖 雪糕 粒子 香水 比翼双飞
     * Demo-Project
 
-[demo简书地址:不是隔壁老王](http://www.jianshu.com/u/eaf33d493a1d)
+[简书](http://www.jianshu.com/u/eaf33d493a1d)
         
 
 
