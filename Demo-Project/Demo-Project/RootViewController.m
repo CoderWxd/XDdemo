@@ -16,6 +16,9 @@
 #import "TaoBaoViewController.h"
 #import "SaoYiSaoViewController.h"
 #import "CoreTextViewController.h"
+#import "DNHeadViewScaleViewController.h"
+#import "ShowCellViewController.h"
+#import "DNCollectionViewController.h"
 
 @interface RootViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
@@ -45,6 +48,9 @@
                        @"SaoYiSao",
                        @"CoreText",
                        @"获取文件的大小和清除缓存",
+                       @"巧妙实现悬浮tableviewHeaderView方法",
+                       @"UITableViewCell的展开与收缩",
+                       @"自定义UICollectionView的布局",
                        nil];
     [self.tableView reloadData];
 }
@@ -78,8 +84,6 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *text = [self.dataSource objectAtIndex:indexPath.row];
     if ([text isEqualToString:@"展开cell"]) {// cell内容变化
@@ -120,8 +124,16 @@
     else if ([text isEqualToString:@"获取文件的大小和清除缓存"]){//@"获取文件的大小和清除缓存"
         CoreTextViewController *coreTextVc = [[CoreTextViewController alloc] init];
         [self.navigationController pushViewController:coreTextVc animated:YES];
-    }
-    
+    }else if ([text isEqualToString:@"巧妙实现悬浮tableviewHeaderView方法"]){
+        DNHeadViewScaleViewController *coreTextVc = [[DNHeadViewScaleViewController alloc] init];
+        [self.navigationController pushViewController:coreTextVc animated:YES];
+    }else if ([text isEqualToString:@"UITableViewCell的展开与收缩"]){
+        ShowCellViewController *coreTextVc = [[ShowCellViewController alloc] init];
+        [self.navigationController pushViewController:coreTextVc animated:YES];
+    }else if ([text isEqualToString:@"自定义UICollectionView的布局"]){
+         DNCollectionViewController *coreTextVc = [[DNCollectionViewController alloc] init];
+        [self.navigationController pushViewController:coreTextVc animated:YES];
+    } 
 }
 
 
