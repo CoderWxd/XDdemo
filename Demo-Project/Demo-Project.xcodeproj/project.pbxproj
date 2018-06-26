@@ -53,6 +53,16 @@
 		C536B93E1FFF678B003B38E6 /* image in Resources */ = {isa = PBXBuildFile; fileRef = C536B93D1FFF678B003B38E6 /* image */; };
 		C55C9BDE2018A85700543472 /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55C9BDD2018A85700543472 /* CoreTextViewController.m */; };
 		C55C9BE12018A95E00543472 /* UIView+ESShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = C55C9BE02018A95D00543472 /* UIView+ESShortcut.m */; };
+		C56770A620DF5712005945EE /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770A120DF5712005945EE /* UIViewController+RESideMenu.m */; };
+		C56770A720DF5712005945EE /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770A320DF5712005945EE /* RESideMenu.m */; };
+		C56770A820DF5712005945EE /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770A520DF5712005945EE /* RECommonFunctions.m */; };
+		C56770B120DF579C005945EE /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770AC20DF579C005945EE /* DEMOFirstViewController.m */; };
+		C56770B220DF579C005945EE /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770AE20DF579C005945EE /* DEMOLeftMenuViewController.m */; };
+		C56770B320DF579C005945EE /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770B020DF579C005945EE /* DEMORightMenuViewController.m */; };
+		C56770B520DF57C8005945EE /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56770B420DF57C8005945EE /* DEMOSecondViewController.m */; };
+		C57A0DCB20DF445600A2E669 /* DLLabelTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57A0DCA20DF445600A2E669 /* DLLabelTapViewController.m */; };
+		C57A0DD120DF44B900A2E669 /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C57A0DCE20DF44B800A2E669 /* UILabel+YBAttributeTextTapAction.m */; };
+		C57A0DD220DF44B900A2E669 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C57A0DD020DF44B800A2E669 /* UIAlertView+Block.m */; };
 		C589812820B5032700EAB4E6 /* ShowCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C589812720B5032700EAB4E6 /* ShowCellViewController.m */; };
 		C589813220B503B300EAB4E6 /* UnfoldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C589812C20B503B200EAB4E6 /* UnfoldCell.m */; };
 		C589813320B503B300EAB4E6 /* UnfoldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C589812E20B503B300EAB4E6 /* UnfoldModel.m */; };
@@ -63,6 +73,8 @@
 		C589814320B50C9400EAB4E6 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C589813C20B50C9300EAB4E6 /* LineLayout.m */; };
 		C589814420B50C9400EAB4E6 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C589814020B50C9400EAB4E6 /* CollectionViewCell.xib */; };
 		C589814720B50D3700EAB4E6 /* DNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C589814620B50D3700EAB4E6 /* DNViewController.m */; };
+		C589814B20B51B8700EAB4E6 /* DLCoreSpotlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C589814A20B51B8700EAB4E6 /* DLCoreSpotlightViewController.m */; };
+		C589814E20B51C0100EAB4E6 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C589814C20B51C0100EAB4E6 /* NewsModel.m */; };
 		C5E18E9720198754002905E2 /* ClearCachesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E18E9620198754002905E2 /* ClearCachesViewController.m */; };
 		C5E18E9A20198775002905E2 /* FileCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E18E9920198775002905E2 /* FileCacheManager.m */; };
 		C5E5211D20A9BC610042BF06 /* DNHeadViewScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5211C20A9BC610042BF06 /* DNHeadViewScaleViewController.m */; };
@@ -153,6 +165,26 @@
 		C55C9BDD2018A85700543472 /* CoreTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextViewController.m; sourceTree = "<group>"; };
 		C55C9BDF2018A95D00543472 /* UIView+ESShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ESShortcut.h"; sourceTree = "<group>"; };
 		C55C9BE02018A95D00543472 /* UIView+ESShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ESShortcut.m"; sourceTree = "<group>"; };
+		C56770A020DF5712005945EE /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		C56770A120DF5712005945EE /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		C56770A220DF5712005945EE /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		C56770A320DF5712005945EE /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		C56770A420DF5712005945EE /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		C56770A520DF5712005945EE /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		C56770AA20DF579C005945EE /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOSecondViewController.h; sourceTree = "<group>"; };
+		C56770AB20DF579C005945EE /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		C56770AC20DF579C005945EE /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOFirstViewController.m; sourceTree = "<group>"; };
+		C56770AD20DF579C005945EE /* DEMORightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORightMenuViewController.h; sourceTree = "<group>"; };
+		C56770AE20DF579C005945EE /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		C56770AF20DF579C005945EE /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOFirstViewController.h; sourceTree = "<group>"; };
+		C56770B020DF579C005945EE /* DEMORightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORightMenuViewController.m; sourceTree = "<group>"; };
+		C56770B420DF57C8005945EE /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOSecondViewController.m; sourceTree = "<group>"; };
+		C57A0DC920DF445600A2E669 /* DLLabelTapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLLabelTapViewController.h; sourceTree = "<group>"; };
+		C57A0DCA20DF445600A2E669 /* DLLabelTapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLLabelTapViewController.m; sourceTree = "<group>"; };
+		C57A0DCD20DF44B800A2E669 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		C57A0DCE20DF44B800A2E669 /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
+		C57A0DCF20DF44B800A2E669 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		C57A0DD020DF44B800A2E669 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
 		C589812620B5032700EAB4E6 /* ShowCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowCellViewController.h; sourceTree = "<group>"; };
 		C589812720B5032700EAB4E6 /* ShowCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowCellViewController.m; sourceTree = "<group>"; };
 		C589812B20B503B200EAB4E6 /* UnfoldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnfoldCell.h; sourceTree = "<group>"; };
@@ -172,6 +204,10 @@
 		C589814020B50C9400EAB4E6 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		C589814520B50D3700EAB4E6 /* DNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNViewController.h; sourceTree = "<group>"; };
 		C589814620B50D3700EAB4E6 /* DNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNViewController.m; sourceTree = "<group>"; };
+		C589814920B51B8700EAB4E6 /* DLCoreSpotlightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLCoreSpotlightViewController.h; sourceTree = "<group>"; };
+		C589814A20B51B8700EAB4E6 /* DLCoreSpotlightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLCoreSpotlightViewController.m; sourceTree = "<group>"; };
+		C589814C20B51C0100EAB4E6 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		C589814D20B51C0100EAB4E6 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
 		C5E18E9520198754002905E2 /* ClearCachesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearCachesViewController.h; sourceTree = "<group>"; };
 		C5E18E9620198754002905E2 /* ClearCachesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearCachesViewController.m; sourceTree = "<group>"; };
 		C5E18E9820198774002905E2 /* FileCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCacheManager.h; sourceTree = "<group>"; };
@@ -329,6 +365,8 @@
 		C536B92A1FFF5FB5003B38E6 /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C567709F20DF5712005945EE /* RESideMenu */,
+				C589814820B51B6100EAB4E6 /* IOS9 CoreSpotlight 搜索 */,
 				C589813520B50C4000EAB4E6 /* 自定义UICollectionView的布局 */,
 				C589812520B502F300EAB4E6 /* UITableViewCell的展开与收缩 */,
 				C53579F01FFFA8670021CF74 /* 扫描 */,
@@ -352,6 +390,8 @@
 				C5E5211F20A9BD110042BF06 /* DNHeadView.m */,
 				C589814520B50D3700EAB4E6 /* DNViewController.h */,
 				C589814620B50D3700EAB4E6 /* DNViewController.m */,
+				C57A0DC920DF445600A2E669 /* DLLabelTapViewController.h */,
+				C57A0DCA20DF445600A2E669 /* DLLabelTapViewController.m */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -359,6 +399,9 @@
 		C536B9361FFF66FF003B38E6 /* Categroys */ = {
 			isa = PBXGroup;
 			children = (
+				C57A0DCC20DF44B800A2E669 /* YBAttributeTextTapAction */,
+				C57A0DCF20DF44B800A2E669 /* UIAlertView+Block.h */,
+				C57A0DD020DF44B800A2E669 /* UIAlertView+Block.m */,
 				C5357A061FFFAC4E0021CF74 /* LittleToolClass.h */,
 				C5E18E9820198774002905E2 /* FileCacheManager.h */,
 				C5E18E9920198775002905E2 /* FileCacheManager.m */,
@@ -389,6 +432,44 @@
 				C536B9381FFF673E003B38E6 /* UIScrollView+HeaderScaleImage.m */,
 			);
 			path = Categroys;
+			sourceTree = "<group>";
+		};
+		C567709F20DF5712005945EE /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C56770A020DF5712005945EE /* RESideMenu.h */,
+				C56770A320DF5712005945EE /* RESideMenu.m */,
+				C56770A420DF5712005945EE /* UIViewController+RESideMenu.h */,
+				C56770A120DF5712005945EE /* UIViewController+RESideMenu.m */,
+				C56770A220DF5712005945EE /* RECommonFunctions.h */,
+				C56770A520DF5712005945EE /* RECommonFunctions.m */,
+				C56770A920DF576E005945EE /* viewControllers */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		C56770A920DF576E005945EE /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C56770B420DF57C8005945EE /* DEMOSecondViewController.m */,
+				C56770AA20DF579C005945EE /* DEMOSecondViewController.h */,
+				C56770AF20DF579C005945EE /* DEMOFirstViewController.h */,
+				C56770AC20DF579C005945EE /* DEMOFirstViewController.m */,
+				C56770AB20DF579C005945EE /* DEMOLeftMenuViewController.h */,
+				C56770AE20DF579C005945EE /* DEMOLeftMenuViewController.m */,
+				C56770AD20DF579C005945EE /* DEMORightMenuViewController.h */,
+				C56770B020DF579C005945EE /* DEMORightMenuViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		C57A0DCC20DF44B800A2E669 /* YBAttributeTextTapAction */ = {
+			isa = PBXGroup;
+			children = (
+				C57A0DCD20DF44B800A2E669 /* UILabel+YBAttributeTextTapAction.h */,
+				C57A0DCE20DF44B800A2E669 /* UILabel+YBAttributeTextTapAction.m */,
+			);
+			path = YBAttributeTextTapAction;
 			sourceTree = "<group>";
 		};
 		C589812520B502F300EAB4E6 /* UITableViewCell的展开与收缩 */ = {
@@ -454,6 +535,17 @@
 			path = Layout;
 			sourceTree = "<group>";
 		};
+		C589814820B51B6100EAB4E6 /* IOS9 CoreSpotlight 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				C589814920B51B8700EAB4E6 /* DLCoreSpotlightViewController.h */,
+				C589814A20B51B8700EAB4E6 /* DLCoreSpotlightViewController.m */,
+				C589814D20B51C0100EAB4E6 /* NewsModel.h */,
+				C589814C20B51C0100EAB4E6 /* NewsModel.m */,
+			);
+			path = "IOS9 CoreSpotlight 搜索";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -480,7 +572,7 @@
 		C536B9091FFF5DA5003B38E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DN;
+				CLASSPREFIX = DL;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "王晓栋";
 				TargetAttributes = {
@@ -545,6 +637,7 @@
 				C53579B41FFF6CAF0021CF74 /* CollectionVC.m in Sources */,
 				C589813820B50C6D00EAB4E6 /* DNCollectionViewController.m in Sources */,
 				C53579BE1FFF71790021CF74 /* keyChain.m in Sources */,
+				C589814E20B51C0100EAB4E6 /* NewsModel.m in Sources */,
 				C536B92D1FFF600F003B38E6 /* OpenCellViewController.m in Sources */,
 				C53579D41FFF75150021CF74 /* UIView+Frame.m in Sources */,
 				C53579FF1FFFA8800021CF74 /* SaoYiSaoViewController.m in Sources */,
@@ -554,15 +647,22 @@
 				C589813320B503B300EAB4E6 /* UnfoldModel.m in Sources */,
 				C5E18E9720198754002905E2 /* ClearCachesViewController.m in Sources */,
 				C536B9241FFF5DA5003B38E6 /* main.m in Sources */,
+				C56770A720DF5712005945EE /* RESideMenu.m in Sources */,
 				C53579B71FFF6EB90021CF74 /* QQGroupViewController.m in Sources */,
 				C5357A081FFFAC4F0021CF74 /* NSString+TimeExtension.m in Sources */,
 				C55C9BE12018A95E00543472 /* UIView+ESShortcut.m in Sources */,
+				C56770B120DF579C005945EE /* DEMOFirstViewController.m in Sources */,
 				C589814720B50D3700EAB4E6 /* DNViewController.m in Sources */,
+				C56770A820DF5712005945EE /* RECommonFunctions.m in Sources */,
+				C57A0DD220DF44B900A2E669 /* UIAlertView+Block.m in Sources */,
 				C53579D91FFF75150021CF74 /* UIImage+Render.m in Sources */,
 				C5E5212020A9BD110042BF06 /* DNHeadView.m in Sources */,
 				C589814320B50C9400EAB4E6 /* LineLayout.m in Sources */,
+				C589814B20B51B8700EAB4E6 /* DLCoreSpotlightViewController.m in Sources */,
 				C53579AC1FFF6C8A0021CF74 /* TFCollectionViewCell.m in Sources */,
+				C56770B220DF579C005945EE /* DEMOLeftMenuViewController.m in Sources */,
 				C53579AA1FFF6C8A0021CF74 /* ShowImageView.m in Sources */,
+				C56770A620DF5712005945EE /* UIViewController+RESideMenu.m in Sources */,
 				C53579AE1FFF6C8A0021CF74 /* TFPubuliuLayout.m in Sources */,
 				C589812820B5032700EAB4E6 /* ShowCellViewController.m in Sources */,
 				C53579EC1FFF94A00021CF74 /* ViewController2.m in Sources */,
@@ -572,7 +672,9 @@
 				C589814120B50C9400EAB4E6 /* CollectionViewCell.m in Sources */,
 				C53579D51FFF75150021CF74 /* NSDate+Interval.m in Sources */,
 				C53579E11FFF7E810021CF74 /* PopViewController.m in Sources */,
+				C57A0DCB20DF445600A2E669 /* DLLabelTapViewController.m in Sources */,
 				C5357A071FFFAC4F0021CF74 /* NSObject+BlockTimer.m in Sources */,
+				C56770B320DF579C005945EE /* DEMORightMenuViewController.m in Sources */,
 				C53579D71FFF75150021CF74 /* UIColor+Hex.m in Sources */,
 				C536B9161FFF5DA5003B38E6 /* AppDelegate.m in Sources */,
 				C5357A001FFFA8800021CF74 /* UIImage+mask.m in Sources */,
@@ -581,12 +683,14 @@
 				C589814220B50C9400EAB4E6 /* ViscosityLayout.m in Sources */,
 				C536B9301FFF6152003B38E6 /* RootViewController.m in Sources */,
 				C5E18E9A20198775002905E2 /* FileCacheManager.m in Sources */,
+				C57A0DD120DF44B900A2E669 /* UILabel+YBAttributeTextTapAction.m in Sources */,
 				C53579EB1FFF94A00021CF74 /* ViewController1.m in Sources */,
 				C53579BB1FFF71620021CF74 /* KeyChainViewController.m in Sources */,
 				C589813220B503B300EAB4E6 /* UnfoldCell.m in Sources */,
 				C53579DA1FFF75150021CF74 /* UIBarButtonItem+Item.m in Sources */,
 				C5357A091FFFAC4F0021CF74 /* LittleToolClass.m in Sources */,
 				C536B9391FFF673E003B38E6 /* UIScrollView+HeaderScaleImage.m in Sources */,
+				C56770B520DF57C8005945EE /* DEMOSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,8 +19,14 @@
 #import "DNHeadViewScaleViewController.h"
 #import "ShowCellViewController.h"
 #import "DNCollectionViewController.h"
+#import "DLCoreSpotlightViewController.h"
+#import "DLLabelTapViewController.h"
+#import "DEMOLeftMenuViewController.h"
+#import "DEMORightMenuViewController.h"
+#import "DEMOFirstViewController.h"
+#import "DEMOSecondViewController.h"
 
-@interface RootViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface RootViewController ()<UITableViewDataSource,UITableViewDelegate,RESideMenuDelegate>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSMutableArray *dataSource;
 
@@ -51,8 +57,12 @@
                        @"巧妙实现悬浮tableviewHeaderView方法",
                        @"UITableViewCell的展开与收缩",
                        @"自定义UICollectionView的布局",
+                       @"IOS9 CoreSpotlight 搜索",
+                       @"UILabel的特殊字符点击",
+                       @"RESideMenu",
                        nil];
     [self.tableView reloadData];
+    [self text];
 }
 
 
@@ -133,11 +143,119 @@
     }else if ([text isEqualToString:@"自定义UICollectionView的布局"]){
          DNCollectionViewController *coreTextVc = [[DNCollectionViewController alloc] init];
         [self.navigationController pushViewController:coreTextVc animated:YES];
-    } 
+    }else if ([text isEqualToString:@"IOS9 CoreSpotlight 搜索"]){
+        DLCoreSpotlightViewController *coreTextVc = [[DLCoreSpotlightViewController alloc] init];
+        [self.navigationController pushViewController:coreTextVc animated:YES];
+    }else if ([text isEqualToString:@"UILabel的特殊字符点击"]){
+        DLLabelTapViewController *coreTextVc = [[DLLabelTapViewController alloc] init];
+        [self.navigationController pushViewController:coreTextVc animated:YES];
+    }
+    else if ([text isEqualToString:@"RESideMenu"]){
+        
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[DEMOFirstViewController alloc] init]];
+        DEMOLeftMenuViewController *leftMenuViewController = [[DEMOLeftMenuViewController alloc] init];
+        DEMORightMenuViewController *rightMenuViewController = [[DEMORightMenuViewController alloc] init];
+        
+        RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:navigationController
+                                                                        leftMenuViewController:leftMenuViewController
+                                                                       rightMenuViewController:rightMenuViewController];
+        sideMenuViewController.backgroundImage = [UIImage imageNamed:@"image/Stars"];
+        sideMenuViewController.menuPreferredStatusBarStyle = 1; // UIStatusBarStyleLightContent
+        sideMenuViewController.delegate = self;
+        sideMenuViewController.contentViewShadowColor = [UIColor blackColor];
+        sideMenuViewController.contentViewShadowOffset = CGSizeMake(0, 0);
+        sideMenuViewController.contentViewShadowOpacity = 0.6;
+        sideMenuViewController.contentViewShadowRadius = 12;
+        sideMenuViewController.contentViewShadowEnabled = YES;
+        [UIApplication sharedApplication].keyWindow.rootViewController = sideMenuViewController;
+    }
+    
+    
+}
+
+#pragma mark -
+#pragma mark RESideMenu Delegate
+
+- (void)sideMenu:(RESideMenu *)sideMenu willShowMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"willShowMenuViewController: %@", NSStringFromClass([menuViewController class]));
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didShowMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"didShowMenuViewController: %@", NSStringFromClass([menuViewController class]));
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu willHideMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"willHideMenuViewController: %@", NSStringFromClass([menuViewController class]));
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didHideMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"didHideMenuViewController: %@", NSStringFromClass([menuViewController class]));
 }
 
 
+//测试
+- (void)text{
+    [RootViewController functionName:@"aaa",@"bbb",@"ccc",@"ddd",nil];
+//    [RootViewController tf_executeSelector:nil withTarget:self withParams:@"aaa",@"bbb",@"ccc",@"ddd",nil];
+//    [RootViewController functionName2:@"aaa",@"bbb",@"ccc",@"ddd",nil];
+    
+}
 
+//c语言用法 遍历不规则变量
+
++ (void)functionName:(NSObject *)name, ...{
+    
+    va_list args;
+    va_start(args, name);
+    if(name){
+//        NSString *objectName;
+//        NSLog(@"%@",va_arg(args, NSString *));
+        while ((name = va_arg(args, NSString *))) {
+            NSLog(@"objectName=%@",name);
+         }
+    }
+    va_end(args);
+}
+
+//va_list args：定义一个指向个数可变的参数列表指针；
+//
+//va_start(args,string)：string为第一个参数，也就是最右边的已知参数,这里就是获取第一个可选参数的地址.使参数列表指针指向函数参数列表中的第一个可选参数，函数参数列表中参数在内存中的顺序与函数声明时的顺序是一致的。
+//
+//va_arg(args,NSString)：返回参数列表中指针所指的参数，返回类型为NSString，并使参数指针指向参数列表中下一个参数。
+//
+//va_end(args)：清空参数列表，并置参数指针args无效。
+
++(id)tf_executeSelector:(SEL)_sel withTarget:(id)_target  withParams:(id)params,...
+{
+    id arg;
+    //define a pointer to the mutable paramter
+    va_list _p_list;
+    //va_start:get the first address of paramter
+    va_start(_p_list, params);
+    NSMutableArray *_obj_params =[NSMutableArray arrayWithCapacity:5];
+    if (params) {
+        //add the first paramter to array
+        id pre = params;
+        [_obj_params addObject:pre];
+        @try {
+            //point to the next address
+            while ((arg = va_arg(_p_list, id))) {
+                if (arg) {
+                    [_obj_params addObject:arg];
+                }
+            }
+        } @catch (NSException *exception) {
+            NSCAssert(NO,@"%s paramter type error!",__func__);
+        } @finally {}
+    }
+    //clear
+    va_end(_p_list);
+    return nil;
+}
 /*
 #pragma mark - Navigation
 
