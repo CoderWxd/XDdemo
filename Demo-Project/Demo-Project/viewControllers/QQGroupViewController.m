@@ -7,7 +7,7 @@
 //
 
 #import "QQGroupViewController.h"
-
+#import "NSObject+DLSubViews.h"
 #define dic_array @"zuarray"
 
 #define dic_title @"title"
@@ -26,7 +26,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = Color_Ground;
     self.automaticallyAdjustsScrollViewInsets = NO;
-    
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH,SCREEN_HEIGHT) style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -34,7 +33,6 @@
     
     self.tableView.tableFooterView =[[UIView alloc]init];
     [self initDataArray];
-    
     
 }
 -(void)initDataArray{

@@ -26,6 +26,7 @@
 #import "DEMOFirstViewController.h"
 #import "DEMOSecondViewController.h"
 
+#import "LCNoticeAlertView.h"
 @interface RootViewController ()<UITableViewDataSource,UITableViewDelegate,RESideMenuDelegate>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSMutableArray *dataSource;
@@ -60,6 +61,7 @@
                        @"IOS9 CoreSpotlight 搜索",
                        @"UILabel的特殊字符点击",
                        @"RESideMenu",
+                       @"侧滑动画_Navigation",
                        nil];
     [self.tableView reloadData];
     [self text];
@@ -168,9 +170,10 @@
         sideMenuViewController.contentViewShadowRadius = 12;
         sideMenuViewController.contentViewShadowEnabled = YES;
         [UIApplication sharedApplication].keyWindow.rootViewController = sideMenuViewController;
+    }else if ([text isEqualToString:@"侧滑动画_Navigation"]){
+        NSLog(@"所需的控制器继承自KLTNavigationController");
+        [LCNoticeAlertView showMsg:@"所需的控制器继承自KLTNavigationController"];
     }
-    
-    
 }
 
 #pragma mark -

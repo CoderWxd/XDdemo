@@ -11,6 +11,7 @@
 //#import "ToolMacro.h"
 
 @interface LittleToolClass : NSObject
+
 + (NSString *)changeTelNumToStart:(NSString *)tel;
 
 + (NSString *)changeIdCardNumToStart:(NSString *)IdCard ;
@@ -45,8 +46,6 @@
 //判断是否含有特殊字符
 +(BOOL)isIncludeSpecialChar:(NSString *)string;
 
-
-/**/
 //身份证合法性
 + (BOOL)isValidateIdentificationCard:(NSString *)cardNo;
 
