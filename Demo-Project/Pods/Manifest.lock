@@ -1,0 +1,16 @@
+PODS:
+  - TFPopup (1.0.0)
+
+DEPENDENCIES:
+  - TFPopup
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TFPopup
+
+SPEC CHECKSUMS:
+  TFPopup: 4841a54d9c9bd76a40f048e2a9d8771f1c2f01fe
+
+PODFILE CHECKSUM: be4450b43a6c100fad32d3568dc60d7f9a489c3d
+
+COCOAPODS: 1.7.5

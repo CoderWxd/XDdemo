@@ -25,6 +25,7 @@
 #import "DEMORightMenuViewController.h"
 #import "DEMOFirstViewController.h"
 #import "DEMOSecondViewController.h"
+#import "CoordinatesViewController.h"
 
 #import "LCNoticeAlertView.h"
 @interface RootViewController ()<UITableViewDataSource,UITableViewDelegate,RESideMenuDelegate>
@@ -45,6 +46,7 @@
     [self.view addSubview:self.tableView];
     
     self.dataSource = [NSMutableArray arrayWithObjects:
+                       @"坐标系转换",
                        @"展开cell",
                        @"QQGroup",
                        @"HeaderScaleImage",
@@ -98,7 +100,10 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *text = [self.dataSource objectAtIndex:indexPath.row];
-    if ([text isEqualToString:@"展开cell"]) {// cell内容变化
+    if ([text isEqualToString:@"坐标系转换"]) {//坐标系转换
+       CoordinatesViewController  * openCellVc = [[CoordinatesViewController alloc] init];
+        [self.navigationController pushViewController:openCellVc animated:YES];
+    }else if ([text isEqualToString:@"展开cell"]) {// cell内容变化
         OpenCellViewController *openCellVc = [[OpenCellViewController alloc] init];
         [self.navigationController pushViewController:openCellVc animated:YES];
     }else if ([text isEqualToString:@"QQGroup"]){//分组展开
