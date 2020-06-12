@@ -13,14 +13,8 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    lazy var rootVC = WBTabbarViewController()
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow.init(frame: UIScreen.main.bounds)
-        window?.rootViewController = rootVC
-        window?.makeKeyAndVisible()
         return true
     }
 

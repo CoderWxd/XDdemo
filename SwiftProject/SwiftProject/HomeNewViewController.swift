@@ -1,5 +1,5 @@
 //
-//  MeViewController.swift
+//  HomeNewViewController.swift
 //  SwiftProject
 //
 //  Created by 王晓栋 on 2020/6/9.
@@ -8,12 +8,15 @@
 
 import UIKit
 
-class MeViewController: UIViewController {
+class HomeNewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Me"
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.red
+        self.title = "首页"
+        let btn = UIButton.init(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        btn.backgroundColor = UIColor.red
+        self.view .addSubview(btn)
     }
     
 

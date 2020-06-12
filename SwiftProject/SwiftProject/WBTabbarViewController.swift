@@ -8,32 +8,32 @@
 
 import UIKit
 
-class WBTabbarViewController: UITabBarController {
+class WBTabbarViewController: UITabBarController,UITabBarControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor.green
         // 去掉黑线，底色为白色
         self.tabBar.shadowImage = UIImage()
-        self.tabBar.backgroundImage = UIImage.init(color: UIColor.white, size: CGSize.init(width: 10, height: 10))
+//        self.tabBar.backgroundImage = UIImage.init(color: UIColor.white, size: CGSize.init(width: 10, height: 10))
         
         
-        let homepageNav = WBNavigationController.init(rootViewController: HomeViewController())
+        let homepageNav = WBNavigationController.init(rootViewController: HomeNewViewController())
         homepageNav.tabBarItem.title = "首页"
-        homepageNav.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : WBColor.defaultTitleColor.color], for: UIControlState.normal)
-        homepageNav.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : WBColor.selectedColor.color], for: UIControlState.selected)
-        homepageNav.tabBarItem.image = UIImage.init(named: "tabbar_home")!.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
-        homepageNav.tabBarItem.selectedImage = UIImage.init(named: "tabbar_home_selected")!.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        homepageNav.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.green], for: UIControl.State.normal)
+        homepageNav.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: UIControl.State.selected)
+        homepageNav.tabBarItem.image = UIImage.init(named: "tabbar_home")!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        homepageNav.tabBarItem.selectedImage = UIImage.init(named: "tabbar_home_selected")!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         
-        let mineNav = WBNavigationController.init(rootViewController: MeViewController())
+         let mineNav = WBNavigationController.init(rootViewController: MeViewController())
         mineNav.tabBarItem.title = "我的"
-        mineNav.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : WBColor.defaultTitleColor.color], for: UIControlState.normal)
-    mineNav.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : WBColor.selectedColor.color], for: UIControlState.selected)
-        mineNav.tabBarItem.image = UIImage.init(named: "tabbar_mine")!.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
-        mineNav.tabBarItem.selectedImage = UIImage.init(named: "tabbar_mine_selected")!.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        mineNav.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.green], for: UIControl.State.normal)
+        mineNav.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: UIControl.State.selected)
+        mineNav.tabBarItem.image = UIImage.init(named: "tabbar_mine")!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        mineNav.tabBarItem.selectedImage = UIImage.init(named: "tabbar_mine_selected")!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         
         viewControllers = [homepageNav,mineNav]
-        self.delegate = self
+//        self.delegate = self as? UITabBarControllerDelegate
         
     }
     

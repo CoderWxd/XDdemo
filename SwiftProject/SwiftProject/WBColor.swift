@@ -51,7 +51,19 @@ enum WBColor: String {
     case enabledColor = "#FFE6E5"
  
     var color: UIColor {
-        return UIColor.init(hexString: rawValue)!
+        
+        return colorWith(hex: Int(rawValue) ?? 10)
     }
     
+    func colorWith(hex: Int, transparency: CGFloat = 1) -> UIColor {
+        
+        var trans = transparency
+        if trans < 0 { trans = 0 }
+        if trans > 1 { trans = 1 }
+        
+        let red = (hex >> 16) & 0xff
+        let green = (hex >> 8) & 0xff
+        let blue = hex & 0xff
+        return UIColor.init(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: trans)
+    }
 }
